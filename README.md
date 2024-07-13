@@ -17,3 +17,28 @@ Top 3 Predictions: Displays the top 3 categories the model predicts for the uplo
 
 You can try out the application live here: https://huggingface.co/spaces/keerthi-balaji/image-classification
 
+# Requirements
+
+Python 3.6 or higher
+TensorFlow
+Gradio
+Requests
+NumPy
+
+# Installation
+
+Clone the repository: 
+git clone https://github.com/your-username/image-classification-mobilenetv2.git
+cd image-classification-mobilenetv2
+Create and activate a virtual environment (optional): 
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+Install the required packages: 
+pip install -r requirements.txt
+
+# Usage
+
+Run the application: 
+python app.py
+Open your web browser and go to the URL provided by Gradio (usually http://127.0.0.1:7860).
+Upload an image to see the top 3 predicted labels along with their confidence scores.
