@@ -47,11 +47,10 @@ pip install -r requirements.txt
 
 # Usage
 
-Run the application: 
-
+1. Run the application: 
 
 python app.py
 
-Open your web browser and go to the URL provided by Gradio (usually http://127.0.0.1:7860).
+2. Open your web browser and go to the URL provided by Gradio (usually http://127.0.0.1:7860).
 
-Upload an image to see the top 3 predicted labels along with their confidence scores.
+3. Upload an image to see the top 3 predicted labels along with their confidence scores.
